@@ -28,6 +28,7 @@ body {
     height: 50px;
     width: 50px;
     transition: width 0.3s ease;
+    border-radius: 5px;
 }
 
 .btn {
@@ -40,7 +41,8 @@ body {
     left: 0;
     height: 50px;
     width: 50px;
-    transition: transform 0.3s ease;;
+    transition: transform 0.3s ease;
+    border-radius: 5px;
 }
 
 .btn:focus,
@@ -50,8 +52,10 @@ body {
 
 .search.active .input {
     width: 200px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .search.active .btn {
+    border-radius: 0px 5px 5px 0px;
     transform: translateX(198px);
 }
